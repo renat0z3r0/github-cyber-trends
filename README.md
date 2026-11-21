@@ -1,6 +1,6 @@
 # GitHub Cyber Trends
 
-[English](#english) | [Italiano](#italiano)
+[English](#english) · [Italiano](#italiano)
 
 <a id="english"></a>
 
