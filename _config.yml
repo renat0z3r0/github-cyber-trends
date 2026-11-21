@@ -1,0 +1,16 @@
+title: GitHub Cyber Trends
+description: >-
+  Digest quotidiano di repository open source di cybersecurity, nuovi e attivamente mantenuti. /
+  Daily curated digest of new, actively maintained open-source cybersecurity repositories.
+theme: minima
+lang: it
+plugins: []
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: "digests"
+    values:
+      layout: page
