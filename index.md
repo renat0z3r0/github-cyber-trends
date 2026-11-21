@@ -3,7 +3,7 @@ layout: home
 title: GitHub Cyber Trends
 ---
 
-[English](#english) · [Italiano](#italiano)
+[English](#english) · [Italiano](#italiano) · [Archive / Archivio](#archive)
 
 <a id="english"></a>
 
@@ -20,18 +20,6 @@ Full text: [digests/2026/11/2026-11-20.md](digests/2026/11/2026-11-20.md)
   - Brings SAST, secret scanning, SCA and threat modeling into one CLI driven by the AI coding assistants teams already use.
 - [g4bri-3l3/HostBadger](https://github.com/g4bri-3l3/HostBadger)
   - Practical CIS/STIG/Essential Eight auditing for Windows hosts with reversible remediation, directly usable for hardening baselines.
-
-## Archive
-
-| Date | File |
-| --- | --- |
-| 2026-11-20 | [digests/2026/11/2026-11-20.md](digests/2026/11/2026-11-20.md) |
-| 2026-11-19 | [digests/2026/11/2026-11-19.md](digests/2026/11/2026-11-19.md) |
-| 2026-11-18 | [digests/2026/11/2026-11-18.md](digests/2026/11/2026-11-18.md) |
-| 2026-11-15 | [digests/2026/11/2026-11-15.md](digests/2026/11/2026-11-15.md) |
-| 2026-11-14 | [digests/2026/11/2026-11-14.md](digests/2026/11/2026-11-14.md) |
-| 2026-11-13 | [digests/2026/11/2026-11-13.md](digests/2026/11/2026-11-13.md) |
-| 2026-11-12 | [digests/2026/11/2026-11-12.md](digests/2026/11/2026-11-12.md) |
 
 ---
 
@@ -51,9 +39,11 @@ Testo completo: [digests/2026/11/2026-11-20.md](digests/2026/11/2026-11-20.md)
 - [g4bri-3l3/HostBadger](https://github.com/g4bri-3l3/HostBadger)
   - Audit pratico CIS/STIG/Essential Eight per host Windows, con correzioni reversibili, direttamente utilizzabile per le baseline di hardening.
 
-## Archivio
+<a id="archive"></a>
 
-| Data | File |
+## Archive / Archivio
+
+| Date / Data | File |
 | --- | --- |
 | 2026-11-20 | [digests/2026/11/2026-11-20.md](digests/2026/11/2026-11-20.md) |
 | 2026-11-19 | [digests/2026/11/2026-11-19.md](digests/2026/11/2026-11-19.md) |
