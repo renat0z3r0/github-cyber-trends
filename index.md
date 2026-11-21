@@ -13,7 +13,7 @@ A daily curated digest of new, actively maintained open-source cybersecurity rep
 
 Full text: [digests/2026/11/2026-11-20.md](digests/2026/11/2026-11-20.md)
 
-🔥 Top picks today
+## Top picks today
 - [therandomsecurityguy/signet](https://github.com/therandomsecurityguy/signet)
   - A governance registry for AI agents and skills, with signed publication and a transparency log: a concrete piece of trust for the agent supply chain.
 - [secfoo-com/secfoo](https://github.com/secfoo-com/secfoo)
@@ -31,7 +31,7 @@ Digest quotidiano e curato di repository open source di cybersecurity, nuovi e a
 
 Testo completo: [digests/2026/11/2026-11-20.md](digests/2026/11/2026-11-20.md)
 
-🔥 Più interessanti oggi
+## Più interessanti oggi
 - [therandomsecurityguy/signet](https://github.com/therandomsecurityguy/signet)
   - Registro di governance per agenti e skill AI, con pubblicazione firmata e transparency log: un pezzo concreto di fiducia sulla supply chain degli agenti.
 - [secfoo-com/secfoo](https://github.com/secfoo-com/secfoo)
