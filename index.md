@@ -1,6 +1,5 @@
 ---
 layout: home
-title: GitHub Cyber Trends
 ---
 
 [English](#english) · [Italiano](#italiano) · [Archive / Archivio](#archive)

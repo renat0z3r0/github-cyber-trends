@@ -1,0 +1,59 @@
+@media screen and (min-width: 800px) {
+  .wrapper {
+    max-width: 1080px;
+  }
+
+  .with-digest-nav {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  .with-digest-nav .page-main {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .digest-sidebar {
+    flex: 0 0 15rem;
+    position: sticky;
+    top: 1rem;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .with-digest-nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.digest-sidebar-title {
+  margin: 0 0 0.75rem;
+  font-weight: 700;
+}
+
+.digest-month {
+  margin: 1rem 0 0.35rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.digest-dates {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.digest-dates li {
+  margin: 0.15rem 0;
+}
+
+.digest-dates a.is-current {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-footer-line {
+  margin: 0;
+}

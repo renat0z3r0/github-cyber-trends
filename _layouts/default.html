@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+  <link rel="stylesheet" href="{{ "/assets/digest-nav.css" | relative_url }}">
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="with-digest-nav">
+          <div class="page-main">
+            {{ content }}
+          </div>
+          {%- include digest-nav.html -%}
+        </div>
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

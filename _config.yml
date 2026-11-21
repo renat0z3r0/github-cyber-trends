@@ -5,6 +5,9 @@ description: >-
 theme: minima
 lang: it
 plugins: []
+# An empty list is not enough on its own: minima treats it as "all pages".
+# _includes/header.html therefore omits the nav.
+header_pages: []
 defaults:
   - scope:
       path: ""
@@ -13,4 +16,5 @@ defaults:
   - scope:
       path: "digests"
     values:
-      layout: page
+      # page layout would print page.title as a second H1 beside the markdown date
+      layout: default

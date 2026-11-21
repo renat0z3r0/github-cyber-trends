@@ -1,0 +1,33 @@
+{% assign digest_pages = site.pages | where_exp: "item", "item.path contains 'digests/'" | sort: "name" | reverse %}
+{% assign months_en = "January|February|March|April|May|June|July|August|September|October|November|December" | split: "|" %}
+{% assign months_it = "Gennaio|Febbraio|Marzo|Aprile|Maggio|Giugno|Luglio|Agosto|Settembre|Ottobre|Novembre|Dicembre" | split: "|" %}
+<aside class="digest-sidebar">
+  <p class="digest-sidebar-title">Archive / Archivio</p>
+  <nav aria-label="Archive">
+    {% assign current_month = "" %}
+    {% for item in digest_pages %}
+      {% assign ym = item.name | slice: 0, 7 %}
+      {% if ym != current_month %}
+        {% if current_month != "" %}
+          </ul>
+        {% endif %}
+        {% assign current_month = ym %}
+        {% assign month_index = item.name | slice: 5, 2 | plus: 0 | minus: 1 %}
+        {% assign year = item.name | slice: 0, 4 %}
+        <p class="digest-month">{{ months_en[month_index] }} {{ year }} / {{ months_it[month_index] }} {{ year }}</p>
+        <ul class="digest-dates">
+      {% endif %}
+      {% assign label = item.name | remove: ".md" %}
+      <li>
+        {% if item.url == page.url %}
+          <a class="is-current" aria-current="page" href="{{ item.url | relative_url }}">{{ label }}</a>
+        {% else %}
+          <a href="{{ item.url | relative_url }}">{{ label }}</a>
+        {% endif %}
+      </li>
+    {% endfor %}
+    {% if current_month != "" %}
+      </ul>
+    {% endif %}
+  </nav>
+</aside>
