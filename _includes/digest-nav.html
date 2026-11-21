@@ -1,6 +1,4 @@
 {% assign digest_pages = site.pages | where_exp: "item", "item.path contains 'digests/'" | sort: "name" | reverse %}
-{% assign months_en = "January|February|March|April|May|June|July|August|September|October|November|December" | split: "|" %}
-{% assign months_it = "Gennaio|Febbraio|Marzo|Aprile|Maggio|Giugno|Luglio|Agosto|Settembre|Ottobre|Novembre|Dicembre" | split: "|" %}
 <aside class="digest-sidebar">
   <p class="digest-sidebar-title">Archive / Archivio</p>
   <nav aria-label="Archive">
@@ -12,9 +10,9 @@
           </ul>
         {% endif %}
         {% assign current_month = ym %}
-        {% assign month_index = item.name | slice: 5, 2 | plus: 0 | minus: 1 %}
+        {% assign month = item.name | slice: 5, 2 %}
         {% assign year = item.name | slice: 0, 4 %}
-        <p class="digest-month">{{ months_en[month_index] }} {{ year }} / {{ months_it[month_index] }} {{ year }}</p>
+        <p class="digest-month">{{ month }}/{{ year }}</p>
         <ul class="digest-dates">
       {% endif %}
       {% assign label = item.name | remove: ".md" %}

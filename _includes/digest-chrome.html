@@ -1,0 +1,29 @@
+{% assign digest_pages = site.pages | where_exp: "item", "item.path contains 'digests/'" | sort: "name" %}
+{% if include.where == "top" %}
+<p class="digest-crumbs"><a href="{{ "/" | relative_url }}">Home</a> · <a href="{{ "/" | relative_url }}#archive">Archive / Archivio</a></p>
+{% elsif include.where == "bottom" %}
+  {% assign seen_current = "no" %}
+  {% assign prev_url = "" %}
+  {% assign prev_label = "" %}
+  {% assign next_url = "" %}
+  {% assign next_label = "" %}
+  {% for item in digest_pages %}
+    {% assign label = item.name | remove: ".md" %}
+    {% if item.url == page.url %}
+      {% assign seen_current = "yes" %}
+    {% elsif seen_current == "no" %}
+      {% assign prev_url = item.url %}
+      {% assign prev_label = label %}
+    {% elsif next_url == "" %}
+      {% assign next_url = item.url %}
+      {% assign next_label = label %}
+    {% endif %}
+  {% endfor %}
+  {% if prev_url != "" or next_url != "" %}
+  <p class="digest-pager">
+    {%- if prev_url != "" -%}<a href="{{ prev_url | relative_url }}">← {{ prev_label }}</a>{%- endif -%}
+    {%- if prev_url != "" and next_url != "" -%} · {%- endif -%}
+    {%- if next_url != "" -%}<a href="{{ next_url | relative_url }}">{{ next_label }} →</a>{%- endif -%}
+  </p>
+  {% endif %}
+{% endif %}

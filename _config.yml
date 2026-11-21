@@ -8,6 +8,8 @@ plugins: []
 # An empty list is not enough on its own: minima treats it as "all pages".
 # _includes/header.html therefore omits the nav.
 header_pages: []
+exclude:
+  - README.md
 defaults:
   - scope:
       path: ""

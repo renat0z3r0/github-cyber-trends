@@ -12,7 +12,13 @@
       <div class="wrapper">
         <div class="with-digest-nav">
           <div class="page-main">
+            {%- if page.path contains "digests/" -%}
+              {%- include digest-chrome.html where="top" -%}
+            {%- endif -%}
             {{ content }}
+            {%- if page.path contains "digests/" -%}
+              {%- include digest-chrome.html where="bottom" -%}
+            {%- endif -%}
           </div>
           {%- include digest-nav.html -%}
         </div>

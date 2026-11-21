@@ -8,17 +8,17 @@ layout: home
 
 A daily curated digest of new, actively maintained open-source cybersecurity repositories, across 15 categories.
 
-## Latest digest (2026-11-20)
+## Latest digest (2026-11-21)
 
-Full text: [digests/2026/11/2026-11-20.md](digests/2026/11/2026-11-20.md)
+Full text: [digests/2026/11/2026-11-21.md](digests/2026/11/2026-11-21.md)
 
 ## Top picks today
-- [therandomsecurityguy/signet](https://github.com/therandomsecurityguy/signet)
-  - A governance registry for AI agents and skills, with signed publication and a transparency log: a concrete piece of trust for the agent supply chain.
-- [secfoo-com/secfoo](https://github.com/secfoo-com/secfoo)
-  - Brings SAST, secret scanning, SCA and threat modeling into one CLI driven by the AI coding assistants teams already use.
-- [g4bri-3l3/HostBadger](https://github.com/g4bri-3l3/HostBadger)
-  - Practical CIS/STIG/Essential Eight auditing for Windows hosts with reversible remediation, directly usable for hardening baselines.
+- [ThreatDefence/agentic-attack-detections](https://github.com/ThreatDefence/agentic-attack-detections)
+  - One of the first public packs of Sigma, KQL, Suricata and YARA rules aimed at AI-agent attack frameworks, and it nearly doubled its stars within hours.
+- [vulnix0x4/a-better-antivirus](https://github.com/vulnix0x4/a-better-antivirus)
+  - Deception-based endpoint defense that freezes infostealers the moment they touch bait credentials, a cheap complement to traditional AV.
+- [alibaba/open-guardrail](https://github.com/alibaba/open-guardrail)
+  - Alibaba's deterministic guardrails control what AI agents actually execute, useful for governing agentic workflows in production.
 
 ---
 
@@ -26,17 +26,17 @@ Full text: [digests/2026/11/2026-11-20.md](digests/2026/11/2026-11-20.md)
 
 Digest quotidiano e curato di repository open source di cybersecurity, nuovi e attivamente mantenuti, in 15 categorie.
 
-## Ultimo digest (2026-11-20)
+## Ultimo digest (2026-11-21)
 
-Testo completo: [digests/2026/11/2026-11-20.md](digests/2026/11/2026-11-20.md)
+Testo completo: [digests/2026/11/2026-11-21.md](digests/2026/11/2026-11-21.md)
 
 ## Più interessanti oggi
-- [therandomsecurityguy/signet](https://github.com/therandomsecurityguy/signet)
-  - Registro di governance per agenti e skill AI, con pubblicazione firmata e transparency log: un pezzo concreto di fiducia sulla supply chain degli agenti.
-- [secfoo-com/secfoo](https://github.com/secfoo-com/secfoo)
-  - Porta SAST, scansione dei segreti, SCA e threat modeling in una sola CLI, guidata dagli assistenti di coding che i team usano già.
-- [g4bri-3l3/HostBadger](https://github.com/g4bri-3l3/HostBadger)
-  - Audit pratico CIS/STIG/Essential Eight per host Windows, con correzioni reversibili, direttamente utilizzabile per le baseline di hardening.
+- [ThreatDefence/agentic-attack-detections](https://github.com/ThreatDefence/agentic-attack-detections)
+  - Uno dei primi pacchetti pubblici di regole Sigma, KQL, Suricata e YARA pensati per i framework di attacco basati su agenti AI, e in poche ore è quasi raddoppiato di stelle.
+- [vulnix0x4/a-better-antivirus](https://github.com/vulnix0x4/a-better-antivirus)
+  - Difesa endpoint basata sull'inganno: blocca gli infostealer appena toccano credenziali esca, un complemento economico all'antivirus tradizionale.
+- [alibaba/open-guardrail](https://github.com/alibaba/open-guardrail)
+  - Guardrail deterministici di Alibaba che controllano cosa gli agenti AI eseguono davvero, utili per governare i flussi agentici in produzione.
 
 <a id="archive"></a>
 
@@ -44,6 +44,7 @@ Testo completo: [digests/2026/11/2026-11-20.md](digests/2026/11/2026-11-20.md)
 
 | Date / Data | File |
 | --- | --- |
+| 2026-11-21 | [digests/2026/11/2026-11-21.md](digests/2026/11/2026-11-21.md) |
 | 2026-11-20 | [digests/2026/11/2026-11-20.md](digests/2026/11/2026-11-20.md) |
 | 2026-11-19 | [digests/2026/11/2026-11-19.md](digests/2026/11/2026-11-19.md) |
 | 2026-11-18 | [digests/2026/11/2026-11-18.md](digests/2026/11/2026-11-18.md) |

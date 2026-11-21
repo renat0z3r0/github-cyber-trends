@@ -57,3 +57,20 @@
 .site-footer-line {
   margin: 0;
 }
+
+a.site-title {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.page-main h3 {
+  font-weight: 700;
+}
+
+.digest-crumbs {
+  margin: 0 0 1rem;
+}
+
+.digest-pager {
+  margin: 1.5rem 0 0;
+}
