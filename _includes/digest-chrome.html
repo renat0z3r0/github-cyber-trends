@@ -21,9 +21,9 @@
   {% endfor %}
   {% if prev_url != "" or next_url != "" %}
   <p class="digest-pager">
-    {%- if prev_url != "" -%}<a href="{{ prev_url | relative_url }}">← {{ prev_label }}</a>{%- endif -%}
-    {%- if prev_url != "" and next_url != "" -%} · {%- endif -%}
-    {%- if next_url != "" -%}<a href="{{ next_url | relative_url }}">{{ next_label }} →</a>{%- endif -%}
+    {% if prev_url != "" %}<a href="{{ prev_url | relative_url }}">← {{ prev_label }}</a>{% endif %}
+    {% if prev_url != "" and next_url != "" %} · {% endif %}
+    {% if next_url != "" %}<a href="{{ next_url | relative_url }}">{{ next_label }} →</a>{% endif %}
   </p>
   {% endif %}
 {% endif %}
