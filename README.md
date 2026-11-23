@@ -20,17 +20,17 @@ Sparse categories are kept visible and tagged *(few valid results today)*.
 
 Content license: [CC BY 4.0](LICENSE).
 
-## Latest digest (2026-11-21)
+## Latest digest (2026-11-22)
 
-Full text: [digests/2026/11/2026-11-21.md](digests/2026/11/2026-11-21.md)
+Full text: [digests/2026/11/2026-11-22.md](digests/2026/11/2026-11-22.md)
 
 ## Top picks today
-- [ThreatDefence/agentic-attack-detections](https://github.com/ThreatDefence/agentic-attack-detections)
-  - One of the first public packs of Sigma, KQL, Suricata and YARA rules aimed at AI-agent attack frameworks, and it nearly doubled its stars within hours.
-- [vulnix0x4/a-better-antivirus](https://github.com/vulnix0x4/a-better-antivirus)
-  - Deception-based endpoint defense that freezes infostealers the moment they touch bait credentials, a cheap complement to traditional AV.
-- [alibaba/open-guardrail](https://github.com/alibaba/open-guardrail)
-  - Alibaba's deterministic guardrails control what AI agents actually execute, useful for governing agentic workflows in production.
+- [archestra-ai/OpenAPPA](https://github.com/archestra-ai/OpenAPPA)
+  - Already at about 1.6k stars, it offers deterministic guardrails that block risky AI-agent actions without breaking the agent.
+- [RemoteToHome-io/gl-security-incident-2026](https://github.com/RemoteToHome-io/gl-security-incident-2026)
+  - Collects coordinated evidence on this month's GL.iNet cloud incident, useful for anyone running those routers.
+- [pktq/lasik](https://github.com/pktq/lasik)
+  - A direct answer to BLA, the technique that blinds AI agents, bringing AI-assisted binary analysis back into use.
 
 ---
 
@@ -52,17 +52,17 @@ Le categorie con pochi risultati validi restano visibili e sono segnalate con *(
 
 Licenza dei contenuti: [CC BY 4.0](LICENSE).
 
-## Ultimo digest (2026-11-21)
+## Ultimo digest (2026-11-22)
 
-Testo completo: [digests/2026/11/2026-11-21.md](digests/2026/11/2026-11-21.md)
+Testo completo: [digests/2026/11/2026-11-22.md](digests/2026/11/2026-11-22.md)
 
 ## Più interessanti oggi
-- [ThreatDefence/agentic-attack-detections](https://github.com/ThreatDefence/agentic-attack-detections)
-  - Uno dei primi pacchetti pubblici di regole Sigma, KQL, Suricata e YARA pensati per i framework di attacco basati su agenti AI, e in poche ore è quasi raddoppiato di stelle.
-- [vulnix0x4/a-better-antivirus](https://github.com/vulnix0x4/a-better-antivirus)
-  - Difesa endpoint basata sull'inganno: blocca gli infostealer appena toccano credenziali esca, un complemento economico all'antivirus tradizionale.
-- [alibaba/open-guardrail](https://github.com/alibaba/open-guardrail)
-  - Guardrail deterministici di Alibaba che controllano cosa gli agenti AI eseguono davvero, utili per governare i flussi agentici in produzione.
+- [archestra-ai/OpenAPPA](https://github.com/archestra-ai/OpenAPPA)
+  - Già a ~1.6k stelle, offre guardrail deterministici per bloccare le azioni rischiose degli agenti AI senza romperne il funzionamento.
+- [RemoteToHome-io/gl-security-incident-2026](https://github.com/RemoteToHome-io/gl-security-incident-2026)
+  - Raccoglie in modo coordinato le evidenze sull'incidente cloud GL.iNet di questo mese, ed è utile a chi ha quei router in rete.
+- [pktq/lasik](https://github.com/pktq/lasik)
+  - Risponde direttamente a BLA, la tecnica che acceca gli agenti AI, e riporta in uso l'analisi dei binari assistita da AI.
 
 <a id="archive"></a>
 
@@ -70,6 +70,7 @@ Testo completo: [digests/2026/11/2026-11-21.md](digests/2026/11/2026-11-21.md)
 
 | Date / Data | File |
 | --- | --- |
+| 2026-11-22 | [digests/2026/11/2026-11-22.md](digests/2026/11/2026-11-22.md) |
 | 2026-11-21 | [digests/2026/11/2026-11-21.md](digests/2026/11/2026-11-21.md) |
 | 2026-11-20 | [digests/2026/11/2026-11-20.md](digests/2026/11/2026-11-20.md) |
 | 2026-11-19 | [digests/2026/11/2026-11-19.md](digests/2026/11/2026-11-19.md) |
