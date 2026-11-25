@@ -20,17 +20,17 @@ Sparse categories are kept visible and tagged *(few valid results today)*.
 
 Content license: [CC BY 4.0](LICENSE).
 
-## Latest digest (2026-11-23)
+## Latest digest (2026-11-25)
 
-Full text: [digests/2026/11/2026-11-23.md](digests/2026/11/2026-11-23.md)
+Full text: [digests/2026/11/2026-11-25.md](digests/2026/11/2026-11-25.md)
 
 ## Top picks today
-- [sashiko-dev/sashiko](https://github.com/sashiko-dev/sashiko)
-  - Already at about 1.5k stars and backed by the Linux Foundation, it is an agentic code-review system built for the Linux kernel and other critical systems software.
-- [BARGHEST-ngo/MESHadb](https://github.com/BARGHEST-ngo/MESHadb)
-  - Builds an encrypted peer-to-peer mesh so analysts can run remote mobile forensics (ADB, MVT, AndroidQF) as if the device were local.
-- [njuj/unmask](https://github.com/njuj/unmask)
-  - Follows the delivery chain down to njRAT/XWorm and extracts C2 and config without ever running the sample.
+- [shirudo-dev/shirudo](https://github.com/shirudo-dev/shirudo)
+  - Already past 2.1k stars in six weeks, it brings eBPF-based runtime security to Linux workloads and is very actively developed.
+- [mansoor-mamnoon/wormsign](https://github.com/mansoor-mamnoon/wormsign)
+  - Checks every lockfile on a machine against known-malicious npm/PyPI versions such as Shai-Hulud-style worms, a concrete defence against supply-chain worms.
+- [CybeDefend/cybedefend](https://github.com/CybeDefend/cybedefend)
+  - An open-source agentic ASPM pitched as a Snyk alternative that runs a full security audit in one command.
 
 ---
 
@@ -52,17 +52,17 @@ Le categorie con pochi risultati validi restano visibili e sono segnalate con *(
 
 Licenza dei contenuti: [CC BY 4.0](LICENSE).
 
-## Ultimo digest (2026-11-23)
+## Ultimo digest (2026-11-25)
 
-Testo completo: [digests/2026/11/2026-11-23.md](digests/2026/11/2026-11-23.md)
+Testo completo: [digests/2026/11/2026-11-25.md](digests/2026/11/2026-11-25.md)
 
 ## Più interessanti oggi
-- [sashiko-dev/sashiko](https://github.com/sashiko-dev/sashiko)
-  - Già a ~1.5k stelle e progetto della Linux Foundation, è un sistema di code review agentico pensato per il kernel Linux e altro software di sistema critico.
-- [BARGHEST-ngo/MESHadb](https://github.com/BARGHEST-ngo/MESHadb)
-  - Crea una rete mesh peer-to-peer cifrata che permette di fare forensics mobile in remoto (ADB, MVT, AndroidQF) come se il dispositivo fosse in locale.
-- [njuj/unmask](https://github.com/njuj/unmask)
-  - Segue la catena di delivery fino a njRAT/XWorm ed estrae C2 e configurazione senza mai eseguire il campione.
+- [shirudo-dev/shirudo](https://github.com/shirudo-dev/shirudo)
+  - Già oltre 2.1k stelle in sei settimane, porta la sicurezza runtime basata su eBPF su workload Linux con un progetto molto attivo.
+- [mansoor-mamnoon/wormsign](https://github.com/mansoor-mamnoon/wormsign)
+  - Controlla tutti i lockfile della macchina contro versioni npm/PyPI malevole stile Shai-Hulud, una difesa concreta contro i worm di supply chain.
+- [CybeDefend/cybedefend](https://github.com/CybeDefend/cybedefend)
+  - ASPM agentico open source che si propone come alternativa a Snyk e fa un audit completo con un solo comando.
 
 <a id="archive"></a>
 
@@ -70,6 +70,7 @@ Testo completo: [digests/2026/11/2026-11-23.md](digests/2026/11/2026-11-23.md)
 
 | Date / Data | File |
 | --- | --- |
+| 2026-11-25 | [digests/2026/11/2026-11-25.md](digests/2026/11/2026-11-25.md) |
 | 2026-11-23 | [digests/2026/11/2026-11-23.md](digests/2026/11/2026-11-23.md) |
 | 2026-11-22 | [digests/2026/11/2026-11-22.md](digests/2026/11/2026-11-22.md) |
 | 2026-11-21 | [digests/2026/11/2026-11-21.md](digests/2026/11/2026-11-21.md) |
