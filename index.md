@@ -8,17 +8,17 @@ layout: home
 
 A daily curated digest of new, actively maintained open-source cybersecurity repositories, across 15 categories.
 
-## Latest digest (2026-11-25)
+## Latest digest (2026-11-26)
 
-Full text: [digests/2026/11/2026-11-25.md](digests/2026/11/2026-11-25.md)
+Full text: [digests/2026/11/2026-11-26.md](digests/2026/11/2026-11-26.md)
 
 ## Top picks today
-- [shirudo-dev/shirudo](https://github.com/shirudo-dev/shirudo)
-  - Already past 2.1k stars in six weeks, it brings eBPF-based runtime security to Linux workloads and is very actively developed.
-- [mansoor-mamnoon/wormsign](https://github.com/mansoor-mamnoon/wormsign)
-  - Checks every lockfile on a machine against known-malicious npm/PyPI versions such as Shai-Hulud-style worms, a concrete defence against supply-chain worms.
-- [CybeDefend/cybedefend](https://github.com/CybeDefend/cybedefend)
-  - An open-source agentic ASPM pitched as a Snyk alternative that runs a full security audit in one command.
+- [thinkst/canarytokens](https://github.com/thinkst/canarytokens)
+  - Thinkst's self-hosted honeytokens are still maintained and remain the cheapest way to spot an intruder before real damage is done.
+- [agivanttechnologies/SlopSquatShield](https://github.com/agivanttechnologies/SlopSquatShield)
+  - It blocks hallucinated or trap packages that AI coding agents try to install, a growing supply-chain risk.
+- [thinkst/opencanary](https://github.com/thinkst/opencanary)
+  - A lightweight, actively maintained multi-protocol honeypot that opens the new Deception category with ready-to-use network decoys.
 
 ---
 
@@ -26,17 +26,17 @@ Full text: [digests/2026/11/2026-11-25.md](digests/2026/11/2026-11-25.md)
 
 Digest quotidiano e curato di repository open source di cybersecurity, nuovi e attivamente mantenuti, in 15 categorie.
 
-## Ultimo digest (2026-11-25)
+## Ultimo digest (2026-11-26)
 
-Testo completo: [digests/2026/11/2026-11-25.md](digests/2026/11/2026-11-25.md)
+Testo completo: [digests/2026/11/2026-11-26.md](digests/2026/11/2026-11-26.md)
 
 ## Più interessanti oggi
-- [shirudo-dev/shirudo](https://github.com/shirudo-dev/shirudo)
-  - Già oltre 2.1k stelle in sei settimane, porta la sicurezza runtime basata su eBPF su workload Linux con un progetto molto attivo.
-- [mansoor-mamnoon/wormsign](https://github.com/mansoor-mamnoon/wormsign)
-  - Controlla tutti i lockfile della macchina contro versioni npm/PyPI malevole stile Shai-Hulud, una difesa concreta contro i worm di supply chain.
-- [CybeDefend/cybedefend](https://github.com/CybeDefend/cybedefend)
-  - ASPM agentico open source che si propone come alternativa a Snyk e fa un audit completo con un solo comando.
+- [thinkst/canarytokens](https://github.com/thinkst/canarytokens)
+  - I honeytoken self-hosted di Thinkst, ancora mantenuti, sono il modo più economico per accorgersi di un intruso prima che faccia danni.
+- [agivanttechnologies/SlopSquatShield](https://github.com/agivanttechnologies/SlopSquatShield)
+  - Blocca i pacchetti inventati o "trappola" che gli agenti AI di coding provano a installare, un rischio di supply chain in crescita.
+- [thinkst/opencanary](https://github.com/thinkst/opencanary)
+  - Honeypot multi-protocollo leggero e attivo, ideale per aprire la nuova categoria Deception con decoy di rete pronti all'uso.
 
 <a id="archive"></a>
 
@@ -44,6 +44,7 @@ Testo completo: [digests/2026/11/2026-11-25.md](digests/2026/11/2026-11-25.md)
 
 | Date / Data | File |
 | --- | --- |
+| 2026-11-26 | [digests/2026/11/2026-11-26.md](digests/2026/11/2026-11-26.md) |
 | 2026-11-25 | [digests/2026/11/2026-11-25.md](digests/2026/11/2026-11-25.md) |
 | 2026-11-24 | [digests/2026/11/2026-11-24.md](digests/2026/11/2026-11-24.md) |
 | 2026-11-23 | [digests/2026/11/2026-11-23.md](digests/2026/11/2026-11-23.md) |
