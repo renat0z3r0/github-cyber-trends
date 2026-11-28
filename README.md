@@ -20,17 +20,17 @@ Sparse categories are kept visible and tagged *(few valid results today)*.
 
 Content license: [CC BY 4.0](LICENSE).
 
-## Latest digest (2026-11-27)
+## Latest digest (2026-11-28)
 
-Full text: [digests/2026/11/2026-11-27.md](digests/2026/11/2026-11-27.md)
+Full text: [digests/2026/11/2026-11-28.md](digests/2026/11/2026-11-28.md)
 
 ## Top picks today
-- [ANSSI-FR/ADTimeline](https://github.com/ANSSI-FR/ADTimeline)
-  - ANSSI's AD timeline, updated today, rebuilds what changed in Active Directory from replication metadata, which is gold for a post-compromise investigation.
-- [lemonadesaltbagel/veil](https://github.com/lemonadesaltbagel/veil)
-  - A local proxy that pseudonymizes PII and secrets before they reach AI coding agents, tackling a very real data-leakage risk.
-- [limbowatch/limbowatch](https://github.com/limbowatch/limbowatch)
-  - It surfaces advisories already published by maintainers but not yet in the GitHub Advisory Database, the vulnerabilities your scanner cannot see yet.
+- [certeu/vigilo](https://github.com/certeu/vigilo)
+  - Open-sourced by CERT-EU, it brings agent-driven security review of your own code and running apps from a trusted EU institution.
+- [InditexTech/cerbia](https://github.com/InditexTech/cerbia)
+  - A production-minded threat detection library for LLM pipelines from a major enterprise (Inditex), easy to drop into existing AI stacks.
+- [HackingLZ/AgentProvocateur](https://github.com/HackingLZ/AgentProvocateur)
+  - Turns deception against AI-driven attackers into something you can test, a defence area that is growing fast.
 
 ---
 
@@ -52,17 +52,17 @@ Le categorie con pochi risultati validi restano visibili e sono segnalate con *(
 
 Licenza dei contenuti: [CC BY 4.0](LICENSE).
 
-## Ultimo digest (2026-11-27)
+## Ultimo digest (2026-11-28)
 
-Testo completo: [digests/2026/11/2026-11-27.md](digests/2026/11/2026-11-27.md)
+Testo completo: [digests/2026/11/2026-11-28.md](digests/2026/11/2026-11-28.md)
 
 ## Più interessanti oggi
-- [ANSSI-FR/ADTimeline](https://github.com/ANSSI-FR/ADTimeline)
-  - La timeline AD di ANSSI, aggiornata proprio oggi, ricostruisce dai metadati di replica cosa è cambiato in Active Directory: oro per un'indagine post-compromissione.
-- [lemonadesaltbagel/veil](https://github.com/lemonadesaltbagel/veil)
-  - Proxy locale che pseudonimizza PII e segreti prima che arrivino agli agenti AI di coding: risponde a un rischio di data leakage molto concreto.
-- [limbowatch/limbowatch](https://github.com/limbowatch/limbowatch)
-  - Segnala gli advisory già pubblicati dai maintainer ma non ancora in GitHub Advisory Database, cioè le vulnerabilità che il tuo scanner non vede ancora.
+- [certeu/vigilo](https://github.com/certeu/vigilo)
+  - Rilasciato da CERT-EU, porta la revisione di sicurezza guidata da agenti AI sul proprio codice e sulle proprie app da una fonte istituzionale europea affidabile.
+- [InditexTech/cerbia](https://github.com/InditexTech/cerbia)
+  - Libreria di rilevamento minacce per pipeline LLM pensata per la produzione da una grande azienda (Inditex), facile da integrare negli stack AI esistenti.
+- [HackingLZ/AgentProvocateur](https://github.com/HackingLZ/AgentProvocateur)
+  - Rende testabile la deception contro attaccanti guidati da AI, un'area difensiva in rapida crescita.
 
 <a id="archive"></a>
 
@@ -70,6 +70,7 @@ Testo completo: [digests/2026/11/2026-11-27.md](digests/2026/11/2026-11-27.md)
 
 | Date / Data | File |
 | --- | --- |
+| 2026-11-28 | [digests/2026/11/2026-11-28.md](digests/2026/11/2026-11-28.md) |
 | 2026-11-27 | [digests/2026/11/2026-11-27.md](digests/2026/11/2026-11-27.md) |
 | 2026-11-26 | [digests/2026/11/2026-11-26.md](digests/2026/11/2026-11-26.md) |
 | 2026-11-25 | [digests/2026/11/2026-11-25.md](digests/2026/11/2026-11-25.md) |
